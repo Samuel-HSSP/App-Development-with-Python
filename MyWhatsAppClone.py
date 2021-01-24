@@ -1,3 +1,7 @@
+## Coded by Samuel Ayomide Ogunleke
+## HSSP World
+## Do not copy without permission
+
 from kivy.lang import Builder
 from kivymd.uix.button import MDIconButton
 from kivymd.uix.dialog import MDDialog
