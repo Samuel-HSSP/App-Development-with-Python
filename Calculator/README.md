@@ -1,1 +1,4 @@
-
+This is a Calculator app that is meant to do what other apps do. Most Calculator apps are not written in Python because of the complexity involved in the algorithms and that the math module and the `eval()` function alone cannot give you everything you'd ever want. This is why this app is written to make building complex calculators with Python a lot easier.
+The [Calculator.py](https://github.com/Samuel-HSSP/App-Development-with-Python/edit/main/Calculator/Calculator.py) file is the app itself, while the [Calgo.py](https://github.com/Samuel-HSSP/App-Development-with-Python/edit/main/Calculator/Calgo.py) is the code containing the algorithms used in the calculator.
+The project is still on development and is on a beta status at the moment.
+You can send a mail to [me](samuelayomidehssp@gmail.com) for support and collaboration.
