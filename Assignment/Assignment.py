@@ -16,8 +16,10 @@ Window.size = (340, 620)
 
 #KV
 KV = """
+#: import FadeTransition kivy.uix.screenmanager.FadeTransition
 ScreenManager:
     id: sm
+    transition: FadeTransition()
 
     Screen:
         name: "login_signup"
@@ -342,13 +344,7 @@ ScreenManager:
                     size_hint_x: 1
                     color: (0, 0, 0, 1)
 
-                MDTextButton:
-                    text: "Sign Out"
-                    pos_hint: {"center_x": .8, "center_y": .2}
-                    theme_text_color: "Custom"
-                    text_color: (0.054901960784313725, 0.6784313725490196, 1.0, 1)
-                    on_release:
-                        app.sign_out()
+
 """
 
 #Classes
@@ -405,7 +401,7 @@ class AssignmentApp(MDApp):
             if error_msg == "EMAIL_EXISTS":
                 self.sign_in_existing_user(email, password)
             else:
-                toast(error_message.capitalize().replace("_", " "))
+                toast(error_msg.capitalize().replace("_", " "))
 
     def sign_out(self):
         with open("refresh.token", "w") as s:
