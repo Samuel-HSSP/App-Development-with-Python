@@ -1,0 +1,3 @@
+Kivy => pip install kivy
+KivyMD => pip install kivymd
+gTTS => pip install gtts
