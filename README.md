@@ -16,7 +16,7 @@ A Complex Calculator app made with Python. Python is not a common programming la
 Because Python would not be a great choice for the backend, I have decided to use a JavaScript library called [MathJS](https://mathjs.org/). It offers all the functions needed to parse expressions without errors. In the future, there might be a Python version of MathJS, so Python also offers everything needed.
 
 ## [Morse Code Translator](https://github.com/Samuel-HSSP/App-Development-with-Python/tree/main/Morse%20Code%20Translator)
-After identifying a major problems with Morse code translators, I built this app to tackle the issues. The first problem was that most Morse code translators will only allow you to translate from English characters to Morse code, and not vice versa. My version of a Morse code translator allows you to do both.
+After identifying a major problem with Morse code translators, I built this app to tackle the issues. The first problem was that most Morse code translators can only allow you to translate from English characters to Morse code, and not vice versa. My version of a Morse code translator allows you to do both.
 Furthermore, you can now play the Morse codes character by character, according to what you translated. It has the audio files for all the alphabets, and I built a complex algorithms to concatenate these audio files, depending on the characters in the output. For example, if the word is "Morse", it would play the morse code sound for "M", "O", "R", "S" and "E" in that order.
 
 ## [WhatsApp Status Saver](https://github.com/Samuel-HSSP/App-Development-with-Python/tree/main/WhatsApp%20Status%20Saver)
